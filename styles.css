@@ -302,7 +302,7 @@ body{
 }
 
 
-@media (max-width: 391px){
+@media (max-width: 415px){
     .xl-text{
         font-size: 2em;
     }
