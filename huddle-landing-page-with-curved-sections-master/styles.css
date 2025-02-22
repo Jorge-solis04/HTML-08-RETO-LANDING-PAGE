@@ -31,6 +31,24 @@ body{
     font-weight: bold;
 }
 
+.xl-text{
+    font-size: 4em;
+}
+
+.m-text{
+    font-size: 2.5em;
+}
+
+.s-text{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.xs-text{
+ font-size: 0.9em;   
+ font-weight: 300;
+}
+
 .header{
     display: flex;
     flex-direction: row;
@@ -88,4 +106,60 @@ body{
     max-width: 80%;
     height: auto;
 }
+
+.section{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-four p.s-text{
+    text-align: center;
+}
+
+.item-five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.info p.xs-text{
+    margin-top: 25px;
+}
+
+.item-five img{
+    margin: 30px;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+}
+
+.item-six{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 300px;
+}
+
+.item-six img{
+    margin: 30px;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+}
+
 
