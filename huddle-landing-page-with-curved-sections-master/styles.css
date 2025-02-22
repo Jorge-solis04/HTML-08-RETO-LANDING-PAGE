@@ -1,0 +1,91 @@
+:root{
+    --pink: hsl(322, 100%, 66%);
+    --pink-light: hsl(321, 100%, 78%);
+    --red-light: hsl(0, 100%, 63%);
+    --cian-dark:  hsl(192, 100%, 9%);
+    --blue-pale: hsl(207, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-pink{
+    background-color: var(--pink-light);
+    color: white;
+    border-radius:  30px;
+    border-color: var(--pink-light);
+    width: 300px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+}
+
+.header button{  /*For principal button, it was a error in my code html*/
+    color: var(--pink);
+    border-radius: 15px;
+    border-color: var(--pink);
+    width: 100px;
+    height: 35px;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-one h1{
+    font-size: 2.5em;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item-one p{
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 500px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.item-two{
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-two img{
+    max-width: 80%;
+    height: auto;
+}
+
