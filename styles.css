@@ -29,6 +29,7 @@ body{
     height: 50px;
     font-size: 1em;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .xl-text{
@@ -64,6 +65,7 @@ body{
     width: 100px;
     height: 35px;
     background-color: white;
+    cursor: pointer;
 }
 
 .container{
@@ -188,6 +190,7 @@ body{
     margin: 30px;
 }
 
+
 .container-end{
     background-color: var(--cian-dark);
     max-width: 100%;
@@ -197,6 +200,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
+
 
 .end1{
     margin: 50px;
@@ -244,6 +248,7 @@ body{
 }
 
 .item-twelve i{
+    cursor: pointer;
     font-size: 35px;
     margin-right: 20px;
 }
@@ -283,6 +288,7 @@ body{
     height: 35px;
     overflow: none;
     font-size: 1em;
+    cursor: pointer;
 
 }
 
